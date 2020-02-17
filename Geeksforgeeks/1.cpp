@@ -1,9 +1,8 @@
-//Vinay Somawat
-//vinaysomawat40@gmail.com
-
 #include<bits/stdc++.h>
 #define ll long long int
+#define f(i,a,b) for(int i=a; i<b;i++)
 using namespace std;
+
 
 int main()
 {
@@ -11,16 +10,14 @@ int main()
     cin>>t;
     while(t--)
     {
-        int n;
+        int n,p;
         cin>>n;
         int a[n];
-        for(int i=0;i<n;i++)
+        a[2]=1;a[3]=7;
+        for(int i=4;i<n;i++)
         {
-            cin>>a[i];
+            a[i]=a[]
         }
-        sort(a,a+n);
-        int ans = a[0];
-        cout<<ans<<endl;
     }
     return 0;
 }
